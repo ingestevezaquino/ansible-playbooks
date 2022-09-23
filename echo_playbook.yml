@@ -1,3 +1,6 @@
+---
 - name: Greeting playbook
-  debug:
-    msg: 'Hello, There!'
+  hosts: all
+  tasks:
+    debug:
+      msg: 'Hello, There!'
